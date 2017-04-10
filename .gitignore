@@ -1,3 +1,6 @@
 node-red/data/*
 !.gitkeep
+.venv
+venv
+env
 
