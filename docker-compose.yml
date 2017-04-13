@@ -13,7 +13,9 @@ services:
       - ./mosquitto/config/:/mosquitto/config
 
   node-red:
-    image: nodered/node-red-docker:latest
+    build:
+      context: ./node-red
+      dockerfile: Dockerfile
     volumes:
     restart: always
     volumes:

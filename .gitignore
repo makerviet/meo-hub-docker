@@ -4,3 +4,4 @@ node-red/data/*
 venv
 env
 
+mosquitto/log/mosquitto.log
