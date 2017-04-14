@@ -1,0 +1,1 @@
+[{"id":"6f436e7c.86888","type":"tab","label":"Flow 1"},{"id":"166d35a9.c7ac9a","type":"mqtt-broker","z":"","broker":"mqtt","port":"1883","clientid":"","usetls":false,"compatmode":true,"keepalive":"60","cleansession":true,"willTopic":"","willQos":"0","willPayload":"","birthTopic":"","birthQos":"0","birthPayload":""}]

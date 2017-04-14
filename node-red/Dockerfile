@@ -1,3 +1,3 @@
 FROM nodered/node-red-docker
-RUN npm install node-red-contrib-meo-esp
-RUN npm install node-red-dashboard
+RUN npm install node-red-contrib-meo-esp node-red-dashboard
+COPY flows.json /data/

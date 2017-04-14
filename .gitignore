@@ -5,3 +5,5 @@ venv
 env
 
 mosquitto/log/mosquitto.log
+.DS_Store
+mosquitto/data/mosquitto.db
