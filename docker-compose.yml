@@ -13,9 +13,7 @@ services:
       - ./mosquitto/config/:/mosquitto/config
 
   node-red:
-    build:
-      context: ./node-red
-      dockerfile: Dockerfile
+    image: machinedata/node-red
     volumes:
     restart: always
     volumes:
@@ -24,3 +22,4 @@ services:
       - 1880:1880
     external_links:
       - mqtt:mqtt
+    command: [sh, -c, "cd /data && npm i node-red-contrib-meo-esp node-red-dashboard && node-red --settings /data/settings.js"]
